@@ -50,9 +50,9 @@ function updateTotal() {
     // get total left amount
     const totalAmount = income - Math.abs(expense)
     // assign values to HTML elements
-    balance.innerText = totalAmount.toFixed(2) + '$'
-    moneyPlus.innerText = income.toFixed(2) + '$'
-    moneyMinus.innerText = expense.toFixed(2) + '$'
+    balance.innerText = totalAmount.toFixed(2)
+    moneyPlus.innerText = income.toFixed(2)
+    moneyMinus.innerText = expense.toFixed(2)
 }
 
 // ADD LIST ITEMS
